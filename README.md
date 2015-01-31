@@ -11,4 +11,7 @@ Proxy between your local PC and a cloud9 workspace for the phillips hue.
 - open client.js
 - set workspaceUrl to your cloud9 url (e.g. https://hackathon-timjrobinson.c9.io/)
 - set bridgeIp to the ip of the hue device you are connecting to
+- npm install
 - node client.js
+
+Now you should be able to use the API in your node workspace and all requests will go to 127.0.0.1:8000 which will send them to your local PC which will then forward them onto the Phillips HUE device. 
