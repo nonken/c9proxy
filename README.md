@@ -1,4 +1,4 @@
-Proxy between your local PC and a cloud9 workspace for the phillips hue. 
+Bridge between your local PC and a cloud9 workspace for the phillips hue. 
 
 ### Server Installation
 - git clone to your cloud9 workspace
