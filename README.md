@@ -8,9 +8,9 @@ Bridge between your local PC and a cloud9 workspace for the phillips hue.
 
 ### Client (LocalPC) installation
 - git clone to somewhere on your pc
-- open client.js
-- set workspaceUrl to your cloud9 workspace url (e.g. https://hackathon-timjrobinson.c9.io/)
-- set bridgeIp to the ip of the hue device you are connecting to
+- open client.js in a text editor
+- set workspaceUrl (line 1) to your cloud9 workspace url (e.g. https://hackathon-timjrobinson.c9.io/)
+- set bridgeIp (line 2) to the ip of the hue device you are connecting to
 - npm install
 - node client.js
 
