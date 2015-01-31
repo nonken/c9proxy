@@ -1,4 +1,4 @@
-var workspaceUrl = "https://githackathon-timjrobinson.c9.io/";
+var workspaceUrl = "https://projectname-username.c9.io/";
 var bridgeIp = "10.10.30.57";
 
 var socket = require('socket.io-client')(workspaceUrl);
