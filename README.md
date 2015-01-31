@@ -1,12 +1,12 @@
 Proxy between your local PC and a cloud9 workspace for the phillips hue. 
 
-=== Server Installation
+### Server Installation
 - git clone to your cloud9 workspace
 - npm install
 - node server.js
 - In hue.js set your bridgeIp to 127.0.0.1:8000 
 
-=== Client installation
+### Client installation
 - git clone to somewhere on your pc
 - open client.js
 - set workspaceUrl to your cloud9 workspace url (e.g. https://hackathon-timjrobinson.c9.io/)
